@@ -33,5 +33,5 @@ testpaths = ["tests"]
 dev = [
     "pre-commit>=4.0.0",
     "pytest>=8.0.0",
-    "ruff>=0.8.0",
+    "ruff==0.15.8",
 ]
