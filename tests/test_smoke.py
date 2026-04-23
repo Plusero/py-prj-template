@@ -1,5 +1,6 @@
-import py_prj_template
 from pathlib import Path
+
+import py_prj_template
 
 
 def test_version() -> None:
