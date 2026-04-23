@@ -18,3 +18,5 @@ After copying the template, rename the `py-prj-template` project and the `py_prj
 - `tests/` — pytest suite; `pythonpath` is set so imports match a flat package layout.
 
 Lockfile: [`uv.lock`](uv.lock) (commit it for reproducible installs).
+
+###test message
