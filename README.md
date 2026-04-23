@@ -2,12 +2,12 @@
 
 Python project layout using [uv](https://docs.astral.sh/uv/) for environments and lockfiles, [`pyproject.toml`](pyproject.toml) for metadata and tools, [pre-commit](https://pre-commit.com/) for git hooks, and [pytest](https://pytest.org/) for tests.
 
-## Bootstrap
+## One-time setup
+
+Run this once after cloning:
 
 ```bash
-uv sync --all-groups
-uv run pre-commit install
-uv run pytest
+uv sync --all-groups && uv run pre-commit install && uv run pytest
 ```
 
 After copying the template, rename the `py-prj-template` project and the `py_prj_template` package in `pyproject.toml`, the `py_prj_template/` directory, and imports/tests.
